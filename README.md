@@ -1,1 +1,1 @@
-[https://github.com/ReginaYashina/manao-test](https://github.com/ReginaYashina/manao-test)
+[https://reginayashina.github.io/manao-test/](https://reginayashina.github.io/manao-test/)
