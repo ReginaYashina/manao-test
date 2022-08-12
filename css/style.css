@@ -1,0 +1,1948 @@
+@font-face {
+  font-family: "Pragmatica";
+  src: url("../fonts/Pragmatica-Black.woff2") format("woff2"), url("../fonts/Pragmatica-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Pragmatica";
+  src: url("../fonts/Pragmatica-BlackOblique.woff2") format("woff2"), url("../fonts/Pragmatica-BlackOblique.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Pragmatica";
+  src: url("../fonts/Pragmatica-Bold.woff2") format("woff2"), url("../fonts/Pragmatica-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Pragmatica";
+  src: url("../fonts/Pragmatica-BoldOblique.woff2") format("woff2"), url("../fonts/Pragmatica-BoldOblique.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Pragmatica Cond";
+  src: url("../fonts/PragmaticaCond-Black.woff2") format("woff2"), url("../fonts/PragmaticaCond-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Pragmatica";
+  src: url("../fonts/Pragmatica-BookOblique.woff2") format("woff2"), url("../fonts/Pragmatica-BookOblique.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Pragmatica";
+  src: url("../fonts/Pragmatica-Book.woff2") format("woff2"), url("../fonts/Pragmatica-Book.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Pragmatica Cond";
+  src: url("../fonts/PragmaticaCond-BoldOblique.woff2") format("woff2"), url("../fonts/PragmaticaCond-BoldOblique.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Pragmatica Cond";
+  src: url("../fonts/PragmaticaCond-Bold.woff2") format("woff2"), url("../fonts/PragmaticaCond-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Pragmatica Cond";
+  src: url("../fonts/PragmaticaCond-Book.woff2") format("woff2"), url("../fonts/PragmaticaCond-Book.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Pragmatica Cond";
+  src: url("../fonts/PragmaticaCond-BlackOblique.woff2") format("woff2"), url("../fonts/PragmaticaCond-BlackOblique.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Pragmatica Cond";
+  src: url("../fonts/PragmaticaCond-BookOblique.woff2") format("woff2"), url("../fonts/PragmaticaCond-BookOblique.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Pragmatica Cond";
+  src: url("../fonts/PragmaticaCond-Medium.woff2") format("woff2"), url("../fonts/PragmaticaCond-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Pragmatica Cond";
+  src: url("../fonts/PragmaticaCond-LightOblique.woff2") format("woff2"), url("../fonts/PragmaticaCond-LightOblique.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Pragmatica Cond";
+  src: url("../fonts/PragmaticaCond-Light.woff2") format("woff2"), url("../fonts/PragmaticaCond-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Pragmatica Cond";
+  src: url("../fonts/PragmaticaCond-ExtraLight.woff2") format("woff2"), url("../fonts/PragmaticaCond-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Pragmatica Extended";
+  src: url("../fonts/PragmaticaExtended-Black.woff2") format("woff2"), url("../fonts/PragmaticaExtended-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Pragmatica Cond";
+  src: url("../fonts/PragmaticaCond-ExtraLightObliqu.woff2") format("woff2"), url("../fonts/PragmaticaCond-ExtraLightObliqu.woff") format("woff");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Pragmatica Cond";
+  src: url("../fonts/PragmaticaCond-ExtraBold.woff2") format("woff2"), url("../fonts/PragmaticaCond-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Pragmatica Cond";
+  src: url("../fonts/PragmaticaCond-ExtraBoldOblique.woff2") format("woff2"), url("../fonts/PragmaticaCond-ExtraBoldOblique.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Pragmatica Extended";
+  src: url("../fonts/PragmaticaExtended-Book.woff2") format("woff2"), url("../fonts/PragmaticaExtended-Book.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Pragmatica Extended";
+  src: url("../fonts/PragmaticaExtended-BlackOblique.woff2") format("woff2"), url("../fonts/PragmaticaExtended-BlackOblique.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Pragmatica Extended";
+  src: url("../fonts/PragmaticaExtended-BoldOblique.woff2") format("woff2"), url("../fonts/PragmaticaExtended-BoldOblique.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Pragmatica Extended";
+  src: url("../fonts/PragmaticaExtended-Bold.woff2") format("woff2"), url("../fonts/PragmaticaExtended-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Pragmatica Extended";
+  src: url("../fonts/PragmaticaExtended-ExtraLightOb.woff2") format("woff2"), url("../fonts/PragmaticaExtended-ExtraLightOb.woff") format("woff");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Pragmatica Extended";
+  src: url("../fonts/PragmaticaExtended-Light.woff2") format("woff2"), url("../fonts/PragmaticaExtended-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Pragmatica Extended";
+  src: url("../fonts/PragmaticaExtended-ExtraBoldObl.woff2") format("woff2"), url("../fonts/PragmaticaExtended-ExtraBoldObl.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Pragmatica Extended";
+  src: url("../fonts/PragmaticaExtended-ExtraLight.woff2") format("woff2"), url("../fonts/PragmaticaExtended-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Pragmatica Extended";
+  src: url("../fonts/PragmaticaExtended-ExtraBold.woff2") format("woff2"), url("../fonts/PragmaticaExtended-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Pragmatica Extended";
+  src: url("../fonts/PragmaticaExtended-BookOblique.woff2") format("woff2"), url("../fonts/PragmaticaExtended-BookOblique.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Pragmatica Extended";
+  src: url("../fonts/PragmaticaExtended-LightOblique.woff2") format("woff2"), url("../fonts/PragmaticaExtended-LightOblique.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Pragmatica Extended";
+  src: url("../fonts/PragmaticaExtended-Medium.woff2") format("woff2"), url("../fonts/PragmaticaExtended-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Pragmatica Extended";
+  src: url("../fonts/PragmaticaExtended-Light.woff2") format("woff2"), url("../fonts/PragmaticaExtended-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Pragmatica Extended";
+  src: url("../fonts/PragmaticaExtended-MediumObliqu.woff2") format("woff2"), url("../fonts/PragmaticaExtended-MediumObliqu.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Pragmatica";
+  src: url("../fonts/Pragmatica-ExtraBoldOblique.woff2") format("woff2"), url("../fonts/Pragmatica-ExtraBoldOblique.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Pragmatica";
+  src: url("../fonts/Pragmatica-ExtraLightOblique.woff2") format("woff2"), url("../fonts/Pragmatica-ExtraLightOblique.woff") format("woff");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Pragmatica";
+  src: url("../fonts/Pragmatica-Light.woff2") format("woff2"), url("../fonts/Pragmatica-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Pragmatica";
+  src: url("../fonts/Pragmatica-ExtraLight.woff2") format("woff2"), url("../fonts/Pragmatica-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Pragmatica";
+  src: url("../fonts/Pragmatica-ExtraBold.woff2") format("woff2"), url("../fonts/Pragmatica-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TT Commons";
+  src: url("../fonts/TTCommons-Bold.woff2") format("woff2"), url("../fonts/TTCommons-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Pragmatica";
+  src: url("../fonts/Pragmatica-Medium.woff2") format("woff2"), url("../fonts/Pragmatica-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TT Commons";
+  src: url("../fonts/TTCommons-Black.woff2") format("woff2"), url("../fonts/TTCommons-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Pragmatica";
+  src: url("../fonts/Pragmatica-LightOblique.woff2") format("woff2"), url("../fonts/Pragmatica-LightOblique.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TT Commons";
+  src: url("../fonts/TTCommons-BlackItalic.woff2") format("woff2"), url("../fonts/TTCommons-BlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Pragmatica";
+  src: url("../fonts/Pragmatica-MediumOblique.woff2") format("woff2"), url("../fonts/Pragmatica-MediumOblique.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TT Commons";
+  src: url("../fonts/TTCommons-ExtraLight.woff2") format("woff2"), url("../fonts/TTCommons-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TT Commons";
+  src: url("../fonts/TTCommons-DemiBoldItalic.woff2") format("woff2"), url("../fonts/TTCommons-DemiBoldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TT Commons";
+  src: url("../fonts/TTCommons-ExtraBoldItalic.woff2") format("woff2"), url("../fonts/TTCommons-ExtraBoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TT Commons";
+  src: url("../fonts/TTCommons-DemiBold.woff2") format("woff2"), url("../fonts/TTCommons-DemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TT Commons";
+  src: url("../fonts/TTCommons-ExtraBold.woff2") format("woff2"), url("../fonts/TTCommons-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TT Commons";
+  src: url("../fonts/TTCommons-BoldItalic.woff2") format("woff2"), url("../fonts/TTCommons-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TT Commons";
+  src: url("../fonts/TTCommons-ExtraLightItalic.woff2") format("woff2"), url("../fonts/TTCommons-ExtraLightItalic.woff") format("woff");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TT Commons";
+  src: url("../fonts/TTCommons-Light.woff2") format("woff2"), url("../fonts/TTCommons-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TT Commons";
+  src: url("../fonts/TTCommons-Italic.woff2") format("woff2"), url("../fonts/TTCommons-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TT Commons";
+  src: url("../fonts/TTCommons-Medium.woff2") format("woff2"), url("../fonts/TTCommons-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TT Commons";
+  src: url("../fonts/TTCommons-LightItalic.woff2") format("woff2"), url("../fonts/TTCommons-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TT Commons";
+  src: url("../fonts/TTCommons-Thin.woff2") format("woff2"), url("../fonts/TTCommons-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TT Commons";
+  src: url("../fonts/TTCommons-MediumItalic.woff2") format("woff2"), url("../fonts/TTCommons-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TT Commons";
+  src: url("../fonts/TTCommons-Regular.woff2") format("woff2"), url("../fonts/TTCommons-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TT Commons";
+  src: url("../fonts/TTCommons-ThinItalic.woff2") format("woff2"), url("../fonts/TTCommons-ThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+aside,
+nav,
+footer,
+header,
+section {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  min-width: 320px;
+}
+
+body {
+  line-height: 1;
+  font-family: "";
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: "";
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #333333;
+  font-size: 14px;
+  font-family: "Pragmatica";
+}
+
+body._lock {
+  overflow: hidden;
+}
+
+.wrapper {
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+._container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.icon-menu {
+  display: none;
+}
+
+.mobile-menu {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #000;
+  opacity: 0.9;
+  height: 100vh;
+  width: 100%;
+  z-index: 4;
+  padding: 100px 30px;
+  text-align: center;
+}
+
+.menu__body._active {
+  display: block;
+}
+
+.header {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 39px 0;
+}
+
+.header a {
+  font-family: "TT Commons";
+  font-style: normal;
+  color: #FFFFFF;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.header a:hover {
+  color: #7E779A;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.header__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 159px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-width: 294px;
+}
+
+.nav a {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 94%;
+  color: #FFFFFF;
+}
+
+.nav--mob a {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 94%;
+  margin-bottom: 25px;
+  color: #FFFFFF;
+}
+
+.phone,
+.mail {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 82%;
+  color: #FFFFFF;
+  position: relative;
+  display: inline-block;
+  padding-left: 28px;
+}
+
+.phone:before,
+.mail:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.phone {
+  letter-spacing: 0.1em;
+}
+
+.phone:before {
+  content: url(../img/main/phone.png);
+}
+
+.mail {
+  margin-left: auto;
+  letter-spacing: 0.05em;
+}
+
+.mail:before {
+  content: url(../img/main/mail.png);
+}
+
+.footer {
+  padding: 113px 0 42px;
+  background: url(../img/footer/bg-1.png) center/contain no-repeat, #0B0B35;
+  color: #FFFFFF;
+}
+
+.footer__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__row--top {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__row--bottom {
+  margin-top: 87px;
+  border-top: 1px solid #FFFFFF;
+  padding-top: 39px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__column--left {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 38%;
+          flex: 0 1 38%;
+  position: relative;
+}
+
+.footer__column--right {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 57%;
+          flex: 0 1 57%;
+}
+
+.footer__caption {
+  font-family: "TT Commons";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 94%;
+  margin-bottom: 18px;
+}
+
+.footer__subcaption {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 144%;
+  color: #7E779A;
+  margin-bottom: 86px;
+}
+
+.footer__link {
+  font-family: "TT Commons";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 17px;
+  color: #7E779A;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.footer__link:hover {
+  color: #FFFFFF;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.footer__text--big {
+  font-family: "TT Commons";
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 133%;
+  color: #7E779A;
+  margin-left: auto;
+}
+
+.contacts {
+  padding-left: 47px;
+}
+
+.contacts__caption {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #7E779A;
+  margin-bottom: 10px;
+}
+
+.contacts__info {
+  font-family: "TT Commons";
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 25px;
+  color: #FFFFFF;
+  margin-bottom: 22px;
+  display: inline-block;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.contacts__info--nm {
+  margin-bottom: 0;
+}
+
+.contacts__link {
+  color: #FFFFFF;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.contacts__link:hover {
+  color: #7E779A;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.socials {
+  -webkit-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  -webkit-transform-origin: 0 0;
+      -ms-transform-origin: 0 0;
+          transform-origin: 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  left: 0;
+  bottom: 2%;
+}
+
+.socials a {
+  display: inline-block;
+  font-family: "TT Commons";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18px;
+  color: #FFFFFF;
+  margin-right: 25px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  position: relative;
+}
+
+.socials a:hover {
+  color: #7E779A;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.socials a:before {
+  content: "";
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: #FFFFFF;
+  position: absolute;
+  left: 115%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.socials a:last-child:before {
+  content: "";
+  display: none;
+}
+
+.form__label {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #807D8D;
+  margin-bottom: 5px;
+  visibility: hidden;
+}
+
+.form__label._active {
+  visibility: visible;
+}
+
+.form__input,
+.form__textarea {
+  font-family: "Pragmatica";
+  width: 100%;
+  background: rgba(7, 11, 47, 0.07);
+  border: 2px solid #473E69;
+  border-radius: 4px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  padding: 0 22px;
+  margin-bottom: 28px;
+}
+
+.form__input::-webkit-input-placeholder, .form__textarea::-webkit-input-placeholder {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #7E779A;
+}
+
+.form__input::-moz-placeholder, .form__textarea::-moz-placeholder {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #7E779A;
+}
+
+.form__input:-ms-input-placeholder, .form__textarea:-ms-input-placeholder {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #7E779A;
+}
+
+.form__input::-ms-input-placeholder, .form__textarea::-ms-input-placeholder {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #7E779A;
+}
+
+.form__input::placeholder,
+.form__textarea::placeholder {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #7E779A;
+}
+
+.form__input {
+  height: 52px;
+}
+
+.form__textarea {
+  height: 163px;
+  padding: 19px 22px;
+  resize: none;
+}
+
+.form__checkbox-label {
+  display: block;
+  margin-bottom: 21px;
+  position: relative;
+  padding-left: 36px;
+  cursor: pointer;
+}
+
+.form__checkbox-label:last-child {
+  margin-bottom: 0;
+}
+
+.form__checkbox-label input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+.form__checkbox-label input:checked + .checkbox__btn {
+  background: url(../img/footer/chk.png) center/65% no-repeat;
+}
+
+.form__footer {
+  margin-top: 31px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.form__text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #7E779A;
+}
+
+.form__text a {
+  color: #7E779A;
+  text-decoration: underline;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.form__text a:hover {
+  color: #FFFFFF;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.form__button {
+  position: relative;
+  border-radius: 90px;
+  padding: 3px;
+  background: -o-linear-gradient(350.57deg, #3F0F72 4.21%, #791180 108.65%);
+  background: linear-gradient(99.43deg, #3F0F72 4.21%, #791180 108.65%);
+}
+
+.form__button--inner {
+  padding: 22px 41px 20px;
+  background: #190d4b;
+  border-radius: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "TT Commons";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.checkbox__btn {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 22px;
+  height: 22px;
+  border: 2px solid #473E69;
+  border-radius: 4px;
+}
+
+.checkbox__value {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+
+.payment {
+  margin-right: 116px;
+}
+
+.payment__icon {
+  display: inline-block;
+  margin-right: 16px;
+  position: relative;
+  cursor: pointer;
+}
+
+.payment__icon:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #545472;
+  opacity: 0.75;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.payment__icon:hover:before {
+  content: "";
+  opacity: 0;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.js-input.error {
+  border: 1px solid red;
+}
+
+.thanks {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.9;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.thanks__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 300px;
+  height: 200px;
+  background: #FFFFFF;
+  border-radius: 9px;
+  padding: 15px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  pointer-events: none !important;
+  z-index: 15;
+}
+
+.thanks__text {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.thanks._active {
+  display: block;
+}
+
+.close {
+  width: 15px;
+  height: 15px;
+  background: url(../img/footer/close.svg) center/contain no-repeat;
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+.page {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+
+.title {
+  font-family: "TT Commons";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.title--left {
+  text-align: left;
+}
+
+.subtitle {
+  margin-top: 14px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 122%;
+  text-align: center;
+  color: #777777;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+input:focus::-webkit-input-placeholder,
+textarea:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+input:focus::-moz-placeholder,
+textarea:focus::-moz-placeholder {
+  color: transparent;
+}
+
+input:focus:-moz-placeholder,
+textarea:focus:-moz-placeholder {
+  color: transparent;
+}
+
+input:focus:-ms-input-placeholder,
+textarea:focus:-ms-input-placeholder {
+  color: transparent;
+}
+
+.main {
+  background: url(../img/main/bg1.png) center/contain no-repeat, #040B2A;
+  padding: 206px 0 45px;
+}
+
+.main__subtitle {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 144%;
+  letter-spacing: 0.02em;
+  color: #7E779A;
+}
+
+.main__title {
+  margin: 16px 0 25px;
+  font-family: "TT Commons";
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 109%;
+  color: #FFFFFF;
+  width: 75%;
+}
+
+.button {
+  padding: 22px 44px;
+  background: -o-linear-gradient(344.04deg, #3F0F72 13.07%, #791281 85.2%);
+  background: linear-gradient(105.96deg, #3F0F72 13.07%, #791281 85.2%);
+  border-radius: 90px;
+  font-family: "TT Commons";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 88%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  display: inline-block;
+}
+
+.partners {
+  width: 27%;
+  margin: 94px 0 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.partners p {
+  font-family: "TT Commons";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 140.62%;
+  color: #FFFFFF;
+}
+
+.about {
+  padding: 115px 0;
+}
+
+.about__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.about__row--small {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.about__column {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 48%;
+          flex: 0 1 48%;
+  position: relative;
+}
+
+.about__caption {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 44px;
+  margin: 33px 0 15px;
+}
+
+.about__image {
+  border-radius: 9px;
+}
+
+.about__image--small {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 47%;
+          flex: 0 1 47%;
+  border-radius: 9px;
+}
+
+.servises {
+  padding: 115px 0 83px;
+  background: #F6F4F9;
+}
+
+.servises__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 44px;
+}
+
+.infoblock {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 23%;
+          flex: 0 1 23%;
+  background: #FFFFFF;
+  border-radius: 9px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 27px 20px 27px 29px;
+  margin-bottom: 32px;
+}
+
+.infoblock__text {
+  margin-left: 17px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 147%;
+}
+
+.icon {
+  width: 66px;
+  height: 66px;
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  border-radius: 50%;
+  background: -o-linear-gradient(344.04deg, #3F0F72 13.07%, #791281 85.2%);
+  background: linear-gradient(105.96deg, #3F0F72 13.07%, #791281 85.2%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.publications {
+  padding: 115px 0;
+}
+
+.slider {
+  margin: 40px -30px 0;
+}
+
+.slider .slick-arrow {
+  font-size: 0;
+  width: 49px;
+  height: 49px;
+  border-radius: 50%;
+  background: #FFFFFF;
+  border-radius: 90px;
+  -webkit-filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.1));
+          filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.1));
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  z-index: 2;
+}
+
+.slider .slick-next {
+  right: 0;
+  background: url(../img/publications/right.png) center/40% no-repeat, #FFFFFF;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.slider .slick-next:hover {
+  background: url(../img/publications/right-active.png) center/40% no-repeat, #FFFFFF;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.slider .slick-prev {
+  left: 0;
+  background: url(../img/publications/left.png) center/40% no-repeat, #FFFFFF;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.slider .slick-prev:hover {
+  background: url(../img/publications/left-active.png) center/40% no-repeat, #FFFFFF;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.slider .slick-dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+}
+
+.slider .slick-dots button {
+  font-size: 0;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #f6f4f9;
+  margin: 0 4px;
+}
+
+.slider .slick-active button {
+  background: -o-linear-gradient(344.04deg, #3f0f72 13.07%, #791281 85.2%);
+  background: linear-gradient(105.96deg, #3f0f72 13.07%, #791281 85.2%);
+}
+
+.card {
+  background: #F6F4F9;
+  border-radius: 9px;
+  margin: 0 15px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow: hidden;
+}
+
+.card__image {
+  width: 100%;
+}
+
+.card__caption {
+  font-family: "TT Commons";
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 109%;
+  margin: 27px 0 11px;
+  padding: 0 30px;
+  color: #333333;
+}
+
+.card__text {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 150%;
+  color: #777777;
+  padding: 0 30px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+}
+
+.card__footer {
+  padding: 18px 30px 22px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+}
+
+.card__date {
+  font-family: "TT Commons";
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 175.78%;
+  color: #C4C4C4;
+  position: relative;
+  padding-left: 23px;
+}
+
+.card__date:before {
+  content: url(../img/publications/icon.png);
+  position: absolute;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.line {
+  background: #EAE8EC;
+  height: 2px;
+  margin: 26px 30px 0;
+}
+
+.slick-slider {
+  position: relative;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+  -webkit-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.slick-slider .slick-list {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.slick-slider .slick-track {
+  position: relative;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.slick-slider .slick-slide {
+  position: relative;
+}
+
+@media (max-width: 414px) {
+  ._container {
+    max-width: none;
+    padding: 0 10px;
+  }
+
+  .icon-menu {
+    display: block;
+    position: absolute;
+    top: 18px;
+    right: 10px;
+    width: 30px;
+    height: 18px;
+    cursor: pointer;
+    z-index: 5;
+  }
+
+  .icon-menu span {
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    top: calc(50% - 1px);
+    left: 0px;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #FFFFFF;
+  }
+
+  .icon-menu span:first-child {
+    top: 0px;
+  }
+
+  .icon-menu span:last-child {
+    top: auto;
+    bottom: 0px;
+  }
+
+  .icon-menu._active span {
+    -webkit-transform: scale(0);
+        -ms-transform: scale(0);
+            transform: scale(0);
+  }
+
+  .icon-menu._active span:first-child {
+    -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    top: calc(50% - 1px);
+  }
+
+  .icon-menu._active span:last-child {
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+    bottom: calc(50% - 1px);
+  }
+
+  .header {
+    padding: 20px 0;
+    position: fixed;
+    background: #040b2a;
+    z-index: 5;
+  }
+
+  .logo {
+    width: 100px;
+  }
+
+  .logo img {
+    width: 100%;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .phone,
+  .mail {
+    font-size: 26px;
+    line-height: 94%;
+    margin-bottom: 20px;
+  }
+
+  .phone--desctop,
+  .mail--desctop {
+    display: none;
+  }
+
+  .phone {
+    margin-top: 20px;
+  }
+
+  .footer {
+    padding: 55px 0 20px;
+    background-size: cover;
+  }
+
+  .footer__row--top {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .footer__row--bottom {
+    margin-top: 60px;
+    padding-top: 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+
+  .footer__caption {
+    font-size: 32px;
+    margin-bottom: 15px;
+  }
+
+  .footer__subcaption {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+
+  .footer__link {
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 5px;
+    display: block;
+    width: 100%;
+    text-align: right;
+  }
+
+  .footer__text--big {
+    font-size: 14px;
+    line-height: 110%;
+  }
+
+  .contacts {
+    padding-left: 40px;
+  }
+
+  .contacts__info {
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  .socials a {
+    font-size: 14px;
+    line-height: 16px;
+    margin-right: 20px;
+  }
+
+  .form__input,
+  .form__textarea {
+    margin-bottom: 15px;
+  }
+
+  .form__footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+
+  .form__button {
+    margin-top: 20px;
+    max-width: 100%;
+  }
+
+  .payment {
+    margin: 0 0 25px 0;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+
+  .payment__icon {
+    margin-right: 0;
+  }
+
+  .title {
+    font-size: 28px;
+    line-height: 20px;
+  }
+
+  .subtitle {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .text {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 10px;
+  }
+
+  .main {
+    padding: 100px 0 30px;
+    background-size: cover;
+  }
+
+  .main__subtitle {
+    font-size: 16px;
+  }
+
+  .main__title {
+    margin: 15px 0 20px;
+    font-size: 28px;
+    width: 100%;
+  }
+
+  .button {
+    max-width: 100%;
+    font-size: 14px;
+  }
+
+  .partners {
+    margin: 50px 0 0 0;
+    width: 60%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .partners p {
+    font-size: 14px;
+  }
+
+  .partners__logo {
+    width: 80px;
+  }
+
+  .about {
+    padding: 55px 0;
+  }
+
+  .about__row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .about__row--small {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: relative;
+  }
+
+  .about__caption {
+    font-size: 18px;
+    line-height: 22px;
+    margin: 10px 0;
+  }
+
+  .about__image {
+    width: 100%;
+  }
+
+  .about__image--small {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .servises {
+    padding: 55px 0 40px;
+  }
+
+  .servises__row {
+    margin-top: 20px;
+  }
+
+  .infoblock {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 100%;
+            flex: 0 1 100%;
+    padding: 17px 10px 17px 19px;
+    margin-bottom: 20px;
+  }
+
+  .infoblock__text {
+    font-size: 12px;
+  }
+
+  .icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .icon img {
+    width: 15px;
+    height: 15px;
+  }
+
+  .publications {
+    padding: 55px 0 40px;
+  }
+
+  .slider {
+    margin: 20px -20px 0;
+  }
+
+  .slider .slick-arrow {
+    width: 25px;
+    height: 25px;
+  }
+
+  .card {
+    margin: 0 40px 0;
+  }
+
+  .card__caption {
+    font-size: 18px;
+    margin: 20px 0 10px;
+    padding: 0 15px;
+  }
+
+  .card__text {
+    font-size: 12px;
+    padding: 0 15px;
+  }
+
+  .card__footer {
+    padding: 15px;
+  }
+
+  .card__date {
+    font-size: 12px;
+  }
+
+  .line {
+    margin: 20px 15px 0;
+  }
+}
